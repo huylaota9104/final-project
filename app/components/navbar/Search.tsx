@@ -23,7 +23,7 @@ const Search = () => {
       return getByValue(locationValue as string)?.label;
     }
 
-    return 'Anywhere';
+    return 'Bất cứ đâu';
   }, [locationValue, getByValue]);
 
   const durationLabel = useMemo(() => {
@@ -39,7 +39,7 @@ const Search = () => {
       return `${diff} Days`;
     }
 
-    return 'Any Week'
+    return 'Bất cứ lúc nào'
   }, [startDate, endDate]);
 
   const guestLabel = useMemo(() => {
@@ -47,7 +47,7 @@ const Search = () => {
       return `${guestCount} Guests`;
     }
 
-    return 'Add Guests';
+    return 'Bất cứ ai';
   }, [guestCount]);
 
   return ( 
