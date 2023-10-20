@@ -42,8 +42,8 @@ const TripsClient: React.FC<TripsClientProps> = ({
   return (
     <Container>
       <Heading
-        title="Trips"
-        subtitle="Where you've been and where you're going"
+        title="kế hoạch"
+        subtitle="danh sách những nơi bạn đã đến và định du lịch"
       />
       <div 
         className="

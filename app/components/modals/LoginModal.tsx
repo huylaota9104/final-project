@@ -70,8 +70,8 @@ const LoginModal = () => {
   const bodyContent = (
     <div className="flex flex-col gap-4">
       <Heading
-        title="Welcome back"
-        subtitle="Login to your account!"
+        title="Chào Mừng Quay Trở Lại"
+        subtitle="Đăng nhập vào tài khoản"
       />
       <Input
         id="email"
@@ -98,19 +98,19 @@ const LoginModal = () => {
       <hr />
       <Button 
         outline 
-        label="Continue with Google"
+        label="Tiếp tục với Google"
         icon={FcGoogle}
         onClick={() => signIn('google')}
       />
       <Button 
         outline 
-        label="Continue with Github"
+        label="Tiếp tục với Github"
         icon={AiFillGithub}
         onClick={() => signIn('github')}
       />
       <div className="
       text-neutral-500 text-center mt-4 font-light">
-        <p>First time using Airbnb?
+        <p>Lần đầu dùng AirBnB?
           <span 
             onClick={onToggle} 
             className="
@@ -118,7 +118,7 @@ const LoginModal = () => {
               cursor-pointer 
               hover:underline
             "
-            > Create an account</span>
+            > Tạo tài khoản tại đây</span>
         </p>
       </div>
     </div>

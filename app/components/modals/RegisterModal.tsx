@@ -64,8 +64,8 @@ const RegisterModal= () => {
   const bodyContent = (
     <div className="flex flex-col gap-4">
       <Heading
-        title="Welcome to Airbnb"
-        subtitle="Create an account!"
+        title="Chào mừng tới AirBnB"
+        subtitle="Tạo tài khoản"
       />
       <Input
         id="email"
@@ -100,13 +100,13 @@ const RegisterModal= () => {
       <hr />
       <Button 
         outline 
-        label="Continue with Google"
+        label="Tiếp tục với Google"
         icon={FcGoogle}
         onClick={() => signIn('google')} 
       />
       <Button 
         outline 
-        label="Continue with Github"
+        label="Tiếp tục với Github"
         icon={AiFillGithub}
         onClick={() => signIn('github')}
       />
@@ -118,7 +118,7 @@ const RegisterModal= () => {
           font-light
         "
       >
-        <p>Already have an account?
+        <p>Đã có tài khoản?
           <span 
             onClick={onToggle} 
             className="
@@ -126,7 +126,7 @@ const RegisterModal= () => {
               cursor-pointer 
               hover:underline
             "
-            > Log in</span>
+            > Đăng nhập tại đây</span>
         </p>
       </div>
     </div>
